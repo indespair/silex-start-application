@@ -3,3 +3,6 @@
 
 # bower dir
 /web/bower
+
+# npm dir
+node_modules
