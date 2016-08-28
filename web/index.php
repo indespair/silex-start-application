@@ -12,8 +12,6 @@ $app->register(new Silex\Provider\TwigServiceProvider(), [
 ]);
 
 
-$app->get('/', function() use ($app) {
-    return $app['twig']->render('index.twig');
-});
+$app->get('/', 'app\controllers\IndexController::run');
 
 $app->run();
