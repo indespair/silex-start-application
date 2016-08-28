@@ -2,7 +2,7 @@
     "name": "heleg/silex-start-app",
     "description": "Silex Start Application",
     "type": "project",
-    "require" : {
+    "require": {
         "silex/silex": "~1.2",
         "twig/twig": "~1.18"
     },
@@ -11,5 +11,10 @@
             "bower install",
             "npm install"
         ]
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
     }
 }
