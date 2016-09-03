@@ -1,0 +1,9 @@
+{
+    "name": "heleg/silex-start-app",
+    "description": "Silex Start Application",
+    "type": "project",
+    "require" : {
+        "silex/silex": "~1.2",
+        "twig/twig": "~1.18"
+    }
+}
